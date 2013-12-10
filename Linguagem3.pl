@@ -1,6 +1,6 @@
 :- include('Linguagem2.pl').
 
-%%%%%%%%%%%%%%%%%% Trata Declaração de Funções %%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%% Trata Declaração de Funções %%%%%%%%%%%%%%%%%%%%%%%%%	
 
 avalie(declaraFunc(N, C, Args), _, T, Ai, Af) :-
 	insereInicio((N,(C,Args)), Ai, Af),
